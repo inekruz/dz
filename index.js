@@ -1,5 +1,11 @@
-function addition(a, b) {
-    return a + b;
+class Calculator {
+    add(a, b) {
+        return a + b;
+    }
+
+    subtract(a, b) {
+        return a - b;
+    }
 }
 
-console.log(addition(1, 2));
+module.exports = Calculator;
