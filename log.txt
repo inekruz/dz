@@ -1,0 +1,9 @@
+*   7ff960d (HEAD -> main) allowed conflict
+|\  
+| * bbf987b (division) upd add
+| * 9c26c2a add devide
+* | a90eeab (multiplication) upd add
+|/  
+* 670f04a add multi
+* 149819b (addition) add addition
+* 9c47e1c (origin/main) add
