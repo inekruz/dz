@@ -1,6 +1,6 @@
 class Calculator {
     add(a, b) {
-        return a + b + 1;
+        return a + b;
     }
 
     subtract(a, b) {
@@ -9,6 +9,13 @@ class Calculator {
 
     multiply(a, b) {
         return a * b;
+    }
+
+    divide(a, b) {
+        if (b === 0) {
+            throw new Error("Деление на ноль");
+        }
+        return a / b;
     }
 }
 
